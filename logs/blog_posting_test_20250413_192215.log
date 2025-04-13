@@ -1,3 +1,0 @@
-2025-04-13 19:22:15,315 - __main__ - INFO - Starting blog posting test...
-2025-04-13 19:22:15,316 - __main__ - INFO - Loaded test post: Test Blog Post Title
-2025-04-13 19:22:15,316 - __main__ - ERROR - Error during blog posting test: __init__() missing 1 required positional argument: 'config'
