@@ -455,7 +455,7 @@ class BlogPoster:
                     else:
                         actions.send_keys(char)
                     actions.perform()
-                    time.sleep(0.01) # 이전 커밋에서 주석 처리됨
+                    time.sleep(0.02) # 이전 커밋에서 주석 처리됨
 
                     if (i + 1) % 100 == 0 or (i + 1) == total_chars:
                         print(f"  ... {i+1}/{total_chars} 문자 입력 완료")

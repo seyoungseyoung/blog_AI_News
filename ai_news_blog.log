@@ -53,3 +53,43 @@ Exception: Failed to create post
 2025-04-13 20:21:57,590 - blog_poster - INFO - Posting paper (Original Title): GenEAva: Generating Cartoon Avatars with Fine-Grained Facial Expressions from Realistic Diffusion-based Faces
 2025-04-13 20:22:42,707 - __main__ - INFO - 블로그 포스터 리소스 정리 중...
 2025-04-13 20:22:49,749 - __main__ - INFO - 스케줄러 시작. 매일 한국 시간 20:25에 작업 실행 예정.
+2025-04-13 20:24:03,449 - __main__ - INFO - 스케줄러 시작. 매일 한국 시간 20:25에 작업 실행 예정.
+2025-04-13 20:25:03,454 - __main__ - INFO - === 논문 포스팅 작업 시작 ===
+2025-04-13 20:25:03,454 - __main__ - INFO - 설정 로드 중...
+2025-04-13 20:25:03,457 - __main__ - INFO - 설정 로드 완료.
+2025-04-13 20:25:03,457 - __main__ - INFO - 포스트 캐시 초기화 중...
+2025-04-13 20:25:03,457 - post_cache - INFO - 캐시 파일 로드: c:\Users\tpdud\code\blog_AI_News\posted_papers.txt. 총 0개 ID 로드됨.
+2025-04-13 20:25:03,457 - __main__ - INFO - 포스트 캐시 초기화 완료.
+2025-04-13 20:25:03,457 - __main__ - INFO - 논문 크롤러 초기화 중...
+2025-04-13 20:25:03,458 - __main__ - INFO - 논문 크롤러 초기화 완료.
+2025-04-13 20:25:03,458 - __main__ - INFO - 최근 상위 논문 검색 시작...
+2025-04-13 20:25:03,458 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-04-13 20:25:05,762 - arxiv - INFO - Got first page: 100 of 122080 total results
+2025-04-13 20:25:05,768 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-04-13 20:25:07,757 - arxiv - INFO - Got first page: 100 of 122080 total results
+2025-04-13 20:25:07,763 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-04-13 20:25:09,655 - arxiv - INFO - Got first page: 100 of 122080 total results
+2025-04-13 20:25:09,666 - __main__ - INFO - 상위 20개 논문 검색 완료.
+2025-04-13 20:25:09,666 - __main__ - INFO - 블로그 포스터 초기화 중...
+2025-04-13 20:25:09,666 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 20:25:10,558 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 20:25:10,641 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 20:25:10,752 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 20:25:11,909 - __main__ - INFO - 블로그 포스터 초기화 완료.
+2025-04-13 20:25:11,910 - __main__ - INFO - 새 논문 포스팅 시작 (최대 10개 목표)...
+2025-04-13 20:25:11,910 - __main__ - INFO - 포스팅 시도 (순위: 1, 목표: 1/10): VCR-Bench: A Comprehensive Evaluation Framework for Video Chain-of-Thought Reasoning (ID: http://arxiv.org/abs/2504.07956v1)
+2025-04-13 20:25:11,910 - blog_poster - INFO - Posting paper (Original Title): VCR-Bench: A Comprehensive Evaluation Framework for Video Chain-of-Thought Reasoning
+2025-04-13 20:26:03,556 - blog_poster - INFO - Generated Blog Title: 동영상 사고의 연결고리, VCR-Bench로 평가하다
+2025-04-13 20:26:03,557 - blog_poster - INFO - Generated Tags: ['동영상 이해 AI', 'Chain of Thought', 'VCR Bench', 'AI 벤치마크', '시각 언어 모델', 'LVLM 평가', '추론 능력 진단', '인지 vs 추론', '시공간적 처리', 'CoT 점수', 'AI 연구 동향', '비디오 분석', '다중 모달 AI', 'AI 한계 분석', '표준화 평가 프레임워크', '대화형 AI', '단계별 추론', '인공지능 성능 평가']
+2025-04-13 20:27:58,676 - blog_poster - INFO - Successfully posted paper: VCR-Bench: A Comprehensive Evaluation Framework for Video Chain-of-Thought Reasoning (as: 동영상 사고의 연결고리, VCR-Bench로 평가하다)
+2025-04-13 20:27:58,684 - post_cache - INFO - 캐시에 새 논문 ID 추가: http://arxiv.org/abs/2504.07956v1
+2025-04-13 20:27:58,685 - __main__ - INFO - 성공 후 10초 대기...
+2025-04-13 20:28:08,689 - __main__ - INFO - 포스팅 시도 (순위: 2, 목표: 2/10): We Are All Creators: Generative AI, Collective Knowledge, and the Path Towards Human-AI Synergy (ID: http://arxiv.org/abs/2504.07936v1)
+2025-04-13 20:28:08,689 - blog_poster - INFO - Posting paper (Original Title): We Are All Creators: Generative AI, Collective Knowledge, and the Path Towards Human-AI Synergy
+2025-04-13 20:28:56,553 - blog_poster - INFO - Generated Blog Title: AI와 인간의 창조적 공존: 생성형 AI가 바꾸는 창의성의 미래
+2025-04-13 20:28:56,554 - blog_poster - INFO - Generated Tags: ['생성형 AI', '인간 AI 협력', '창의성 재정의', '집단 지식', 'AI 창의성', '수학적 패턴 합성', 'AI 저작권', '지적 재산권', 'AI 민주화', '공동 창조자', 'AI 증강', '인공지능 윤리', '신경망 기반 모델', '창의성 미래', 'AI 패턴 인식', '인간 고유성', 'AI 사회적 영향', '기술 접근성', 'AI 혁신', '복합 문제 해결']
+2025-04-13 20:30:51,004 - blog_poster - INFO - Successfully posted paper: We Are All Creators: Generative AI, Collective Knowledge, and the Path Towards Human-AI Synergy (as: AI와 인간의 창조적 공존: 생성형 AI가 바꾸는 창의성의 미래)
+2025-04-13 20:30:51,010 - post_cache - INFO - 캐시에 새 논문 ID 추가: http://arxiv.org/abs/2504.07936v1
+2025-04-13 20:30:51,010 - __main__ - INFO - 성공 후 10초 대기...
+2025-04-13 20:31:01,020 - __main__ - INFO - 포스팅 시도 (순위: 3, 목표: 3/10): GenEAva: Generating Cartoon Avatars with Fine-Grained Facial Expressions from Realistic Diffusion-based Faces (ID: http://arxiv.org/abs/2504.07945v1)
+2025-04-13 20:31:01,020 - blog_poster - INFO - Posting paper (Original Title): GenEAva: Generating Cartoon Avatars with Fine-Grained Facial Expressions from Realistic Diffusion-based Faces
