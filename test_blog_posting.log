@@ -1,0 +1,110 @@
+2025-04-13 19:22:42,941 - root - INFO - Starting blog posting test...
+2025-04-13 19:22:42,943 - root - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 19:22:42,943 - root - ERROR - Error during blog posting test: NAVER_ID not found in config
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 48, in main
+    poster = BlogPoster(config)
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 37, in __init__
+    raise ValueError("NAVER_ID not found in config")
+ValueError: NAVER_ID not found in config
+2025-04-13 19:23:12,895 - root - INFO - Starting blog posting test...
+2025-04-13 19:23:12,897 - root - ERROR - Error during blog posting test: Missing required environment variables: NAVER_ID, NAVER_PW
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 47, in main
+    config = load_config()
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 36, in load_config
+    raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
+ValueError: Missing required environment variables: NAVER_ID, NAVER_PW
+2025-04-13 19:23:46,123 - root - INFO - Starting blog posting test...
+2025-04-13 19:23:46,124 - root - ERROR - Error during blog posting test: Missing required environment variables: NAVER_ID, NAVER_PW
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 47, in main
+    config = load_config()
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 36, in load_config
+    raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
+ValueError: Missing required environment variables: NAVER_ID, NAVER_PW
+2025-04-13 19:23:52,690 - root - INFO - Starting blog posting test...
+2025-04-13 19:23:52,692 - root - INFO - Configuration loaded successfully
+2025-04-13 19:23:52,692 - root - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 19:23:52,693 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 19:23:53,655 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:23:53,791 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:23:53,883 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 19:23:55,026 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 19:24:58,581 - blog_poster - ERROR - 블로그 글쓰기 페이지 이동 시간 초과
+2025-04-13 19:24:58,581 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to create post
+2025-04-13 19:24:58,582 - blog_poster - ERROR - Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 558, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+
+2025-04-13 19:24:58,582 - root - ERROR - Error during blog posting test: Failed to create post
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 63, in main
+    result = poster.post_paper(test_post)
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 558, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+2025-04-13 19:25:44,340 - root - INFO - Starting blog posting test...
+2025-04-13 19:25:44,342 - root - INFO - Configuration loaded successfully
+2025-04-13 19:25:44,342 - root - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 19:25:44,342 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 19:25:45,265 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:25:45,376 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:25:45,502 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 19:25:46,663 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 19:26:52,256 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to create post
+2025-04-13 19:26:52,257 - blog_poster - ERROR - Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 563, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+
+2025-04-13 19:26:52,257 - root - ERROR - Error during blog posting test: Failed to create post
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 63, in main
+    result = poster.post_paper(test_post)
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 563, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+2025-04-13 19:28:20,637 - root - INFO - Starting blog posting test...
+2025-04-13 19:28:20,639 - root - INFO - Configuration loaded successfully
+2025-04-13 19:28:20,639 - root - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 19:28:20,639 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 19:28:21,546 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:28:21,634 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:28:21,713 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 19:28:22,851 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 19:29:24,000 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to create post
+2025-04-13 19:29:24,001 - blog_poster - ERROR - Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 601, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+
+2025-04-13 19:29:24,001 - root - ERROR - Error during blog posting test: Failed to create post
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 63, in main
+    result = poster.post_paper(test_post)
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 601, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+2025-04-13 19:32:21,045 - root - INFO - Starting blog posting test...
+2025-04-13 19:32:21,046 - root - INFO - Configuration loaded successfully
+2025-04-13 19:32:21,046 - root - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 19:32:21,047 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 19:32:21,961 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:32:22,028 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 19:32:22,099 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 19:32:23,257 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 19:34:35,028 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to create post
+2025-04-13 19:34:35,030 - blog_poster - ERROR - Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 575, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post
+
+2025-04-13 19:34:35,030 - root - ERROR - Error during blog posting test: Failed to create post
+Traceback (most recent call last):
+  File "c:\Users\tpdud\code\blog_AI_News\src\test_blog_posting.py", line 63, in main
+    result = poster.post_paper(test_post)
+  File "c:\Users\tpdud\code\blog_AI_News\src\blog_poster.py", line 575, in post_paper
+    raise Exception("Failed to create post")
+Exception: Failed to create post

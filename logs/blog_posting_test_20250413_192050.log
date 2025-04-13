@@ -1,0 +1,3 @@
+2025-04-13 19:20:50,413 - __main__ - INFO - Starting blog posting test...
+2025-04-13 19:20:50,413 - __main__ - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 19:20:50,415 - __main__ - ERROR - Error during blog posting test: NAVER_ID not found in environment variables (.env)

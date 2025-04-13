@@ -1,0 +1,11 @@
+2025-04-13 18:30:19,921 - __main__ - INFO - Starting blog posting test...
+2025-04-13 18:30:19,922 - __main__ - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 18:30:19,922 - __main__ - INFO - Posting to blog...
+2025-04-13 18:30:19,922 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 18:30:47,734 - blog_poster - INFO - Successfully saved post to content/posts/2025-04-13_test_paper_001.md
+2025-04-13 18:30:47,734 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 18:30:48,662 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:30:48,855 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:30:48,949 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 18:32:57,373 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to create post
+2025-04-13 18:32:57,373 - __main__ - ERROR - Error during blog posting test: Failed to create post

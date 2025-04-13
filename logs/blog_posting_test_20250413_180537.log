@@ -1,0 +1,43 @@
+2025-04-13 18:05:37,732 - __main__ - INFO - Starting blog posting test...
+2025-04-13 18:05:37,732 - __main__ - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 18:05:37,732 - __main__ - INFO - Posting to blog...
+2025-04-13 18:05:37,732 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 18:05:59,235 - blog_poster - INFO - Successfully saved post to content/posts/2025-04-13_test_paper_001.md
+2025-04-13 18:05:59,265 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 18:06:00,281 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:06:00,595 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:06:00,728 - WDM - INFO - There is no [win64] chromedriver "135.0.7049.84" for browser google-chrome "135.0.7049" in cache
+2025-04-13 18:06:00,728 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:06:01,785 - WDM - INFO - WebDriver version 135.0.7049.84 selected
+2025-04-13 18:06:01,789 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-13 18:06:01,789 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-13 18:06:02,338 - WDM - INFO - Driver downloading response is 200
+2025-04-13 18:06:08,311 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:06:18,653 - WDM - INFO - Driver has been saved in cache [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84]
+2025-04-13 18:07:00,286 - blog_poster - ERROR - Category selection failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x008580E3+60707]
+	GetHandleVerifier [0x00858124+60772]
+	(No symbol) [0x00680683]
+	(No symbol) [0x006C8660]
+	(No symbol) [0x006C89FB]
+	(No symbol) [0x00711022]
+	(No symbol) [0x006ED094]
+	(No symbol) [0x0070E824]
+	(No symbol) [0x006ECE46]
+	(No symbol) [0x006BC5D3]
+	(No symbol) [0x006BD424]
+	GetHandleVerifier [0x00A9BBC3+2435075]
+	GetHandleVerifier [0x00A97163+2416035]
+	GetHandleVerifier [0x00AB350C+2531660]
+	GetHandleVerifier [0x0086F1B5+155125]
+	GetHandleVerifier [0x00875B5D+182173]
+	GetHandleVerifier [0x0085F9B8+91640]
+	GetHandleVerifier [0x0085FB60+92064]
+	GetHandleVerifier [0x0084A620+4704]
+	BaseThreadInitThunk [0x763E5D49+25]
+	RtlInitializeExceptionChain [0x7703CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7703CE91+561]
+
+2025-04-13 18:07:00,287 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to select category
+2025-04-13 18:07:00,287 - __main__ - ERROR - Error during blog posting test: Failed to select category

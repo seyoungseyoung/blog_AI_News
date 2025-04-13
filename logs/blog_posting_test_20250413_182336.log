@@ -1,0 +1,7 @@
+2025-04-13 18:23:36,739 - __main__ - INFO - Starting blog posting test...
+2025-04-13 18:23:36,740 - __main__ - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 18:23:36,740 - __main__ - INFO - Posting to blog...
+2025-04-13 18:23:36,740 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 18:24:11,206 - blog_poster - INFO - Successfully saved post to content/posts/2025-04-13_test_paper_001.md
+2025-04-13 18:24:11,208 - blog_poster - ERROR - Error posting paper Test Blog Post Title: Failed to setup WebDriver
+2025-04-13 18:24:11,208 - __main__ - ERROR - Error during blog posting test: Failed to setup WebDriver

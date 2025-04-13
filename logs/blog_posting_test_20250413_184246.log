@@ -1,0 +1,16 @@
+2025-04-13 18:42:46,462 - __main__ - INFO - Starting blog posting test...
+2025-04-13 18:42:46,462 - __main__ - INFO - Loaded test post: Test Blog Post Title
+2025-04-13 18:42:46,462 - __main__ - INFO - Posting to blog...
+2025-04-13 18:42:46,462 - blog_poster - INFO - Posting paper: Test Blog Post Title
+2025-04-13 18:43:14,293 - blog_poster - INFO - Successfully saved post to content/posts/2025-04-13_test_paper_001.md
+2025-04-13 18:43:14,295 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 18:43:15,217 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:43:15,303 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 18:43:15,400 - WDM - INFO - Driver [C:\Users\tpdud\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-13 18:44:09,086 - blog_poster - INFO - Successfully posted paper: Test Blog Post Title
+2025-04-13 18:44:09,087 - __main__ - INFO - Posting Results:
+2025-04-13 18:44:09,087 - __main__ - INFO - Paper ID: test_paper_001
+2025-04-13 18:44:09,087 - __main__ - INFO - Title: Test Blog Post Title
+2025-04-13 18:44:09,087 - __main__ - INFO - Classification: Test Classification
+2025-04-13 18:44:09,087 - __main__ - INFO - Tags: Test Tag 1, Test Tag 2
+2025-04-13 18:44:09,087 - __main__ - INFO - Blog posting test completed successfully!

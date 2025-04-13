@@ -1,0 +1,22 @@
+name: blog_AI_News
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - requests
+    - selenium
+    - webdriver-manager
+    - python-frontmatter
+    - pandas
+    - pytz
+    - arxiv
+    - python-dotenv
+    - beautifulsoup4
+    - lxml
+    - markdown
+    - pyyaml
+    - tqdm
+    - loguru 
